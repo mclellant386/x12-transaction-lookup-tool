@@ -20,27 +20,38 @@ The final workbook provides both high-level processing metrics for stakeholders 
 
 ## Pipeline Workflow
 
-Generate Simulated Transaction Data
-(Represents an inbound processing report or transaction-level results
-returned by a payer, clearinghouse, or trading partner)
-        ↓
-CSV Transaction Report
-(Represents the operational source data received for analysis)
-        ↓
-Analyze Transaction Results
-(Represents automated processing of transaction outcomes)
-        ↓
-Identify File-Level Processing Status
-(Determine which batch files processed cleanly and which require investigation)
-        ↓
-Aggregate Rejection Reasons
-(Identify common processing failures and impacted files)
-        ↓
-Generate Excel Operational Report
-(Transform analysis results into a stakeholder-ready reporting deliverable)
-        ↓
-Dashboard + Summary + Raw Transactions + Rejection Details
-(Provide executive metrics and transaction-level detail for investigation)
+1. **Generate Simulated Transaction Data**  
+   Represents an inbound processing report or transaction-level results returned by a payer, clearinghouse, or trading partner.
+
+   ↓
+
+2. **Create CSV Transaction Report**  
+   Represents the operational source data received for analysis.
+
+   ↓
+
+3. **Analyze Transaction Results**  
+   Represents automated processing of transaction outcomes.
+
+   ↓
+
+4. **Identify File-Level Processing Status**  
+   Determines which batch files processed cleanly and which require investigation.
+
+   ↓
+
+5. **Aggregate Rejection Reasons**  
+   Identifies common processing failures and impacted files.
+
+   ↓
+
+6. **Generate Excel Operational Report**  
+   Transforms analysis results into a stakeholder-ready reporting deliverable.
+
+   ↓
+
+7. **Dashboard + Summary + Raw Transactions + Rejection Details**  
+   Provides high-level operational metrics and transaction-level detail for investigation.
 
 ## Features
 
@@ -76,8 +87,6 @@ Project_02_Healthcare_EDI_Report_Automation/
 ```
 
 ## Pipeline Components
-
-### 01_generate_report.py
 
 ### 01_generate_report.py
 
