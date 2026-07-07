@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+edi_transaction_report.csv
+edi_processing_report.xlsx
